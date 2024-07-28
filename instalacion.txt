@@ -1,0 +1,44 @@
+DESCARGAR EL REPOSITORIO CON EL SIGUIENTE COMANDO
+$ git clone https://github.com/Escoli1/practicatesting.git practicaTesting
+
+INSTALAR DEPENDENCIAS DEL PROYECTO
+```bash
+# Ingresar al directorio
+$ cd practicaTesting
+
+# Instalar las dependencias
+$ npm install
+
+# Copiar y configurar archivo .env
+$ cp .env.example .env
+
+# Iniciar servidor
+$ npm run start
+```
+
+## Test
+
+```bash
+# Unit tests por roles
+$ npm run test:roles
+
+# Unit tests por roles por repository
+$ npm run test:rolesrepository
+
+# Unit tests por roles por servicio
+$ npm run test:rolesservice
+
+# Unit tests por roles por controller
+$ npm run test:rolescontroller
+
+# Unit tests por roles por integracion
+$ npm run test:rolesintegration
+
+# Unit tests por usuarios
+$ npm run test:usuarios
+
+# Unit tests por usuario por servicio
+$ npm run test:usuarioservice
+
+# Unit tests por usuario por serviintegracion
+$ npm run test:rolesintegration
